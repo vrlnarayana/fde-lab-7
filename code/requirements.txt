@@ -1,0 +1,25 @@
+# Lab 7 — Azure AI Search · Hybrid Retrieval · RAG
+# Tested with Python 3.10–3.12. Install with:
+#   pip install -r requirements.txt
+
+# --- LangChain core + Azure/OpenAI integrations ---
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-openai==0.3.33
+
+# --- Azure SDKs used by the LangChain AzureSearch vector store ---
+azure-search-documents==11.5.2
+azure-identity==1.19.0
+azure-core==1.32.0
+
+# --- Azure OpenAI client (pulled in by langchain-openai, pinned for clarity) ---
+openai==1.109.1   # must satisfy langchain-openai 0.3.33 (>=1.104.2)
+
+# --- Evaluation ---
+ragas==0.2.10          # RAG-specific eval (faithfulness, answer relevancy, etc.)
+datasets==3.2.0        # Ragas needs this
+pandas==2.2.3          # tables + CSV handling
+
+# --- Utilities ---
+python-dotenv==1.0.1   # loads the .env file
+tiktoken==0.8.0        # token counting for chunk sizing

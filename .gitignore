@@ -1,0 +1,15 @@
+# Python virtualenv
+.venv/
+code/.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Secrets — never commit
+.env
+code/.env
+
+# macOS
+.DS_Store

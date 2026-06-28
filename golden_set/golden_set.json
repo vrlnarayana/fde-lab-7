@@ -1,0 +1,528 @@
+[
+  {
+    "qid": "Q01",
+    "question": "What is the time target to deliver the Sepsis Six bundle after recognition?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "SEP-v3_0"
+    ],
+    "reference_answer": "Within one hour of recognition.",
+    "hops": 1
+  },
+  {
+    "qid": "Q02",
+    "question": "Which score replaced SIRS for sepsis screening in the 2019 sepsis pathway?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "SEP-v2_0"
+    ],
+    "reference_answer": "qSOFA together with NEWS2.",
+    "hops": 1
+  },
+  {
+    "qid": "Q03",
+    "question": "What is the first-line empirical antibiotic for severe sepsis of unknown source?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "AMS-v3_0"
+    ],
+    "reference_answer": "Piperacillin-tazobactam.",
+    "hops": 1
+  },
+  {
+    "qid": "Q04",
+    "question": "How is Stage 3 acute kidney injury defined by KDIGO creatinine criteria?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "AKI-v2_0"
+    ],
+    "reference_answer": "A 3.0 times or greater rise in serum creatinine, or starting dialysis.",
+    "hops": 1
+  },
+  {
+    "qid": "Q05",
+    "question": "What NT-proBNP level warrants urgent echocardiography in heart failure?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "HF-v1_0"
+    ],
+    "reference_answer": "Above 2000 ng/L, with echo within two weeks.",
+    "hops": 1
+  },
+  {
+    "qid": "Q06",
+    "question": "At what eGFR should metformin be stopped?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "DIA-v1_0"
+    ],
+    "reference_answer": "When eGFR is below 30 mL/min.",
+    "hops": 1
+  },
+  {
+    "qid": "Q07",
+    "question": "What imaging must be done before stroke thrombolysis?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "STR-v1_0"
+    ],
+    "reference_answer": "Urgent non-contrast CT brain to exclude haemorrhage.",
+    "hops": 1
+  },
+  {
+    "qid": "Q08",
+    "question": "Which agent reverses dabigatran?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "ANTI-v1_0"
+    ],
+    "reference_answer": "Idarucizumab.",
+    "hops": 1
+  },
+  {
+    "qid": "Q09",
+    "question": "Within how many hours of admission must VTE risk be assessed in the 2018 pathway?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "VTE-v1_0"
+    ],
+    "reference_answer": "Within 14 hours.",
+    "hops": 1
+  },
+  {
+    "qid": "Q10",
+    "question": "Which medication prevents and treats eclamptic seizures?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "MAT-v1_0"
+    ],
+    "reference_answer": "Magnesium sulphate.",
+    "hops": 1
+  },
+  {
+    "qid": "Q11",
+    "question": "Which tool is used to screen for delirium?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "DEL-v1_0"
+    ],
+    "reference_answer": "The 4AT tool.",
+    "hops": 1
+  },
+  {
+    "qid": "Q12",
+    "question": "What is the four-pillar therapy for heart failure with reduced ejection fraction?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "HF-v2_0"
+    ],
+    "reference_answer": "ARNI/ACE inhibitor, beta-blocker, mineralocorticoid receptor antagonist, and SGLT2 inhibitor.",
+    "hops": 1
+  },
+  {
+    "qid": "Q13",
+    "question": "What mean arterial pressure target defines the vasopressor goal in septic shock?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "SEP-v2_0"
+    ],
+    "reference_answer": "65 mmHg or above.",
+    "hops": 1
+  },
+  {
+    "qid": "Q14",
+    "question": "Which scoring tools assess stroke risk and bleeding risk in atrial fibrillation?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "ANTI-v1_0"
+    ],
+    "reference_answer": "CHA2DS2-VASc for stroke risk and HAS-BLED for bleeding risk.",
+    "hops": 1
+  },
+  {
+    "qid": "Q15",
+    "question": "What is the default antibiotic course length in the 2021 stewardship pathway?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "AMS-v2_0"
+    ],
+    "reference_answer": "Five days for uncomplicated infections.",
+    "hops": 1
+  },
+  {
+    "qid": "Q16",
+    "question": "Which early warning score is used for pregnant patients?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "MAT-v1_0"
+    ],
+    "reference_answer": "MEOWS (Modified Early Obstetric Warning Score).",
+    "hops": 1
+  },
+  {
+    "qid": "Q17",
+    "question": "What thrombolytic alternative to alteplase is accepted in the 2023 stroke pathway?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "STR-v2_0"
+    ],
+    "reference_answer": "Tenecteplase.",
+    "hops": 1
+  },
+  {
+    "qid": "Q18",
+    "question": "What urine output threshold signals Stage 1 AKI in the 2022 pathway?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "AKI-v2_0"
+    ],
+    "reference_answer": "Less than 0.5 mL/kg/hour for six hours.",
+    "hops": 1
+  },
+  {
+    "qid": "Q19",
+    "question": "What HbA1c value diagnoses type 2 diabetes?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "DIA-v1_0"
+    ],
+    "reference_answer": "48 mmol/mol (6.5%) or above.",
+    "hops": 1
+  },
+  {
+    "qid": "Q20",
+    "question": "What first-line oral drug is used for severe hypertension in pre-eclampsia?",
+    "category": "single_hop",
+    "relevant_doc_ids": [
+      "MAT-v2_0"
+    ],
+    "reference_answer": "Labetalol.",
+    "hops": 1
+  },
+  {
+    "qid": "Q21",
+    "question": "A septic patient has worsening kidney function. Which pathway sets the antibiotic renal dose, and which one tells you to detect the falling eGFR?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "SEP-v3_0",
+      "AMS-v3_0",
+      "AKI-v2_0"
+    ],
+    "reference_answer": "Sepsis pathway directs to the Antimicrobial Stewardship Pathway for renal dosing, and the Acute Kidney Injury Pathway for eGFR detection.",
+    "hops": 3
+  },
+  {
+    "qid": "Q22",
+    "question": "For a pregnant woman with sepsis, which two pathways together decide antibiotic choice?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "MAT-v2_0",
+      "AMS-v3_0",
+      "SEP-v3_0"
+    ],
+    "reference_answer": "The Maternal Deterioration Pathway plus the Antimicrobial Stewardship Pathway, triggered through the Adult Sepsis Pathway, using pregnancy-safe agents.",
+    "hops": 3
+  },
+  {
+    "qid": "Q23",
+    "question": "A stroke patient is on a factor Xa inhibitor. Which pathway covers reversal before thrombolysis?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "STR-v2_0",
+      "ANTI-v2_0"
+    ],
+    "reference_answer": "The Stroke Pathway sends you to the Anticoagulation and Bleeding Risk Pathway, which uses andexanet alfa or prothrombin complex concentrate.",
+    "hops": 2
+  },
+  {
+    "qid": "Q24",
+    "question": "A heart failure patient develops sepsis. How should fluid resuscitation differ, and which pathways govern this?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "HF-v2_0",
+      "SEP-v3_0",
+      "AKI-v2_0"
+    ],
+    "reference_answer": "Use small 250-500 mL aliquots with reassessment to avoid overload, coordinated between the Heart Failure, Sepsis, and AKI pathways.",
+    "hops": 3
+  },
+  {
+    "qid": "Q25",
+    "question": "After anticoagulation is held for bleeding, which pathway decides when to restart VTE prophylaxis?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "VTE-v2_0",
+      "ANTI-v2_0"
+    ],
+    "reference_answer": "The VTE Prevention Pathway coordinates restart with the Anticoagulation and Bleeding Risk Pathway.",
+    "hops": 2
+  },
+  {
+    "qid": "Q26",
+    "question": "A diabetic patient becomes acutely unwell with falling kidney function. Which drugs are held and which pathway guides eGFR monitoring?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "DIA-v3_0",
+      "AKI-v2_0"
+    ],
+    "reference_answer": "Hold metformin and SGLT2 inhibitors per sick day rules; the Acute Kidney Injury Pathway guides eGFR monitoring.",
+    "hops": 2
+  },
+  {
+    "qid": "Q27",
+    "question": "An older patient with infection develops delirium. Which pathways together cover the trigger and the correct antibiotic dosing?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "DEL-v1_0",
+      "SEP-v2_0",
+      "AMS-v2_0"
+    ],
+    "reference_answer": "The Delirium Pathway identifies infection/sepsis as a trigger; the Sepsis and Antimicrobial Stewardship pathways ensure correct renal antibiotic dosing.",
+    "hops": 3
+  },
+  {
+    "qid": "Q28",
+    "question": "Which pathway holds the eGFR dose bands that the AKI pathway refers to for vancomycin and gentamicin?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "AKI-v2_0",
+      "AMS-v2_0"
+    ],
+    "reference_answer": "The Antimicrobial Stewardship Pathway holds the eGFR dose bands referenced by the AKI Pathway.",
+    "hops": 2
+  },
+  {
+    "qid": "Q29",
+    "question": "For a patient on a DOAC needing surgery, which pathway covers interruption timing and which covers restarting clot prevention?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "ANTI-v2_0",
+      "VTE-v2_0"
+    ],
+    "reference_answer": "The Anticoagulation Pathway covers peri-procedural interruption; the VTE Prevention Pathway covers prophylaxis restart.",
+    "hops": 2
+  },
+  {
+    "qid": "Q30",
+    "question": "Maternal sepsis is suspected. Which screening score is used and which pathway sets the bundle?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "MAT-v2_0",
+      "SEP-v3_0"
+    ],
+    "reference_answer": "Use MEOWS triggers from the Maternal Pathway, applying the Sepsis Six bundle from the Adult Sepsis Pathway.",
+    "hops": 2
+  },
+  {
+    "qid": "Q31",
+    "question": "A diabetic heart-failure patient needs glucose therapy with cardiac benefit. Which class is advised and which pathway flags fluid caution during illness?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "DIA-v2_0",
+      "HF-v2_0"
+    ],
+    "reference_answer": "SGLT2 inhibitors are advised; the Heart Failure Pathway flags fluid caution during acute illness.",
+    "hops": 2
+  },
+  {
+    "qid": "Q32",
+    "question": "When sepsis causes AKI, which pathway warns about fluid overload and which sets the resuscitation bundle?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "AKI-v2_0",
+      "SEP-v3_0"
+    ],
+    "reference_answer": "The AKI Pathway warns on fluid overload; the Sepsis Pathway sets the Sepsis Six bundle.",
+    "hops": 2
+  },
+  {
+    "qid": "Q33",
+    "question": "A patient with penicillin allergy has severe sepsis. Which pathway gives the alternative regimen and which sets the one-hour antibiotic target?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "AMS-v3_0",
+      "SEP-v3_0"
+    ],
+    "reference_answer": "The Antimicrobial Stewardship Pathway gives ciprofloxacin plus metronidazole; the Sepsis Pathway sets the one-hour first dose.",
+    "hops": 2
+  },
+  {
+    "qid": "Q34",
+    "question": "Which two pathways must be consulted to manage anticoagulation in a stroke patient who is also at venous thromboembolism risk?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "ANTI-v2_0",
+      "VTE-v2_0",
+      "STR-v2_0"
+    ],
+    "reference_answer": "The Anticoagulation, VTE Prevention, and Stroke pathways together.",
+    "hops": 3
+  },
+  {
+    "qid": "Q35",
+    "question": "Where is contrast-related kidney injury covered, and where are the antibiotic renal doses for the same patient?",
+    "category": "multi_hop",
+    "relevant_doc_ids": [
+      "AKI-v1_0",
+      "AMS-v1_0"
+    ],
+    "reference_answer": "Contrast caution is in the AKI Pathway; antibiotic renal doses are in the Antimicrobial Stewardship Pathway.",
+    "hops": 2
+  },
+  {
+    "qid": "Q36",
+    "question": "How did sepsis screening change between the 2014 and 2019 pathways?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "SEP-v1_0",
+      "SEP-v2_0"
+    ],
+    "reference_answer": "It moved from SIRS criteria (2014) to qSOFA plus NEWS2 (2019).",
+    "hops": 2
+  },
+  {
+    "qid": "Q37",
+    "question": "How did the initial fluid bolus advice change from the 2014 to the 2024 sepsis pathway?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "SEP-v1_0",
+      "SEP-v3_0"
+    ],
+    "reference_answer": "From a single 30 mL/kg bolus to smaller 250-500 mL aliquots with reassessment using balanced crystalloid.",
+    "hops": 2
+  },
+  {
+    "qid": "Q38",
+    "question": "What new drug classes were added to diabetes care between 2014 and 2025?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "DIA-v1_0",
+      "DIA-v2_0",
+      "DIA-v3_0"
+    ],
+    "reference_answer": "SGLT2 inhibitors (2020) and GLP-1 receptor agonists (2025) were added to metformin.",
+    "hops": 3
+  },
+  {
+    "qid": "Q39",
+    "question": "How did heart failure first-line therapy change from 2015 to 2023?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "HF-v1_0",
+      "HF-v2_0"
+    ],
+    "reference_answer": "From ACE inhibitor plus beta-blocker to four-pillar therapy adding an MRA and an SGLT2 inhibitor.",
+    "hops": 2
+  },
+  {
+    "qid": "Q40",
+    "question": "How did the stroke time window change between 2016 and 2023?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "STR-v1_0",
+      "STR-v2_0"
+    ],
+    "reference_answer": "Thrombolysis within 4.5 hours plus mechanical thrombectomy up to 24 hours in selected patients.",
+    "hops": 2
+  },
+  {
+    "qid": "Q41",
+    "question": "What changed in default antibiotic duration between the 2015 and 2021 stewardship pathways?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "AMS-v1_0",
+      "AMS-v2_0"
+    ],
+    "reference_answer": "Default moved from 5-7 days to 5 days for uncomplicated infections.",
+    "hops": 2
+  },
+  {
+    "qid": "Q42",
+    "question": "What new AKI detection method was introduced in 2022 compared with 2016?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "AKI-v1_0",
+      "AKI-v2_0"
+    ],
+    "reference_answer": "An automated electronic AKI alert plus urine-output staging criteria.",
+    "hops": 2
+  },
+  {
+    "qid": "Q43",
+    "question": "What reversal-stock change happened between the 2017 and 2024 anticoagulation pathways?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "ANTI-v1_0",
+      "ANTI-v2_0"
+    ],
+    "reference_answer": "Idarucizumab and andexanet alfa are now stocked in the Emergency Department.",
+    "hops": 2
+  },
+  {
+    "qid": "Q44",
+    "question": "What was added to VTE prophylaxis options between 2018 and 2025?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "VTE-v1_0",
+      "VTE-v2_0"
+    ],
+    "reference_answer": "Direct oral anticoagulants for extended prophylaxis after major orthopaedic surgery.",
+    "hops": 2
+  },
+  {
+    "qid": "Q45",
+    "question": "What diagnostic test was added to pre-eclampsia care between 2017 and 2024?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "MAT-v1_0",
+      "MAT-v2_0"
+    ],
+    "reference_answer": "Placental growth factor based testing.",
+    "hops": 1
+  },
+  {
+    "qid": "Q46",
+    "question": "Which is the current version of the Antimicrobial Stewardship Pathway and what did it add?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "AMS-v3_0"
+    ],
+    "reference_answer": "v3.0 (2025), which added OPAT and a maternal antibiotics annex.",
+    "hops": 1
+  },
+  {
+    "qid": "Q47",
+    "question": "Between 2015 and 2025, when were sick day rules introduced for diabetes drugs?",
+    "category": "temporal",
+    "relevant_doc_ids": [
+      "DIA-v2_0",
+      "DIA-v3_0"
+    ],
+    "reference_answer": "Sick day rules were introduced in the 2020 version and reinforced with a written card in 2025.",
+    "hops": 2
+  },
+  {
+    "qid": "Q48",
+    "question": "What is the recommended insulin pump brand for paediatric type 1 diabetes?",
+    "category": "negative",
+    "relevant_doc_ids": [],
+    "reference_answer": "Not covered in this corpus; the model should say it cannot find this.",
+    "hops": 1
+  },
+  {
+    "qid": "Q49",
+    "question": "What is the network policy on organ transplantation immunosuppression?",
+    "category": "negative",
+    "relevant_doc_ids": [],
+    "reference_answer": "Not covered in this corpus; the model should decline.",
+    "hops": 1
+  },
+  {
+    "qid": "Q50",
+    "question": "What are the COVID-19 vaccination intervals in the current schedule?",
+    "category": "negative",
+    "relevant_doc_ids": [],
+    "reference_answer": "Not covered in this corpus; the model should decline.",
+    "hops": 1
+  }
+]

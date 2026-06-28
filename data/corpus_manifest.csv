@@ -1,0 +1,23 @@
+id,pathway_code,title,version,year,status,supersedes,cross_references
+SEP-v1_0,SEP,"Adult Sepsis Recognition and Management Pathway (v1.0, 2014)",v1.0,2014,SUPERSEDED,,AMS|AKI
+SEP-v2_0,SEP,"Adult Sepsis Recognition and Management Pathway (v2.0, 2019)",v2.0,2019,SUPERSEDED,SEP-v1_0,AMS|AKI|HF
+SEP-v3_0,SEP,"Adult Sepsis Recognition and Management Pathway (v3.0, 2024)",v3.0,2024,CURRENT,SEP-v2_0,AMS|AKI|MAT
+AMS-v1_0,AMS,"Antimicrobial Stewardship Pathway (v1.0, 2015)",v1.0,2015,SUPERSEDED,,AKI
+AMS-v2_0,AMS,"Antimicrobial Stewardship Pathway (v2.0, 2021)",v2.0,2021,SUPERSEDED,AMS-v1_0,AKI|SEP
+AMS-v3_0,AMS,"Antimicrobial Stewardship Pathway (v3.0, 2025)",v3.0,2025,CURRENT,AMS-v2_0,AKI|SEP|MAT
+AKI-v1_0,AKI,"Acute Kidney Injury (AKI) Detection and Management Pathway (v1.0, 2016)",v1.0,2016,SUPERSEDED,,SEP|AMS
+AKI-v2_0,AKI,"Acute Kidney Injury (AKI) Detection and Management Pathway (v2.0, 2022)",v2.0,2022,CURRENT,AKI-v1_0,SEP|AMS|HF
+HF-v1_0,HF,"Chronic Heart Failure Management Pathway (v1.0, 2015)",v1.0,2015,SUPERSEDED,,AKI|SEP
+HF-v2_0,HF,"Chronic Heart Failure Management Pathway (v2.0, 2023)",v2.0,2023,CURRENT,HF-v1_0,AKI|SEP
+DIA-v1_0,DIA,"Type 2 Diabetes Inpatient and Outpatient Pathway (v1.0, 2014)",v1.0,2014,SUPERSEDED,,AKI
+DIA-v2_0,DIA,"Type 2 Diabetes Inpatient and Outpatient Pathway (v2.0, 2020)",v2.0,2020,SUPERSEDED,DIA-v1_0,AKI|HF
+DIA-v3_0,DIA,"Type 2 Diabetes Inpatient and Outpatient Pathway (v3.0, 2025)",v3.0,2025,CURRENT,DIA-v2_0,AKI|HF
+STR-v1_0,STR,"Acute Ischaemic Stroke Pathway (v1.0, 2016)",v1.0,2016,SUPERSEDED,,ANTI
+STR-v2_0,STR,"Acute Ischaemic Stroke Pathway (v2.0, 2023)",v2.0,2023,CURRENT,STR-v1_0,ANTI
+ANTI-v1_0,ANTI,"Anticoagulation and Bleeding Risk Pathway (v1.0, 2017)",v1.0,2017,SUPERSEDED,,STR|VTE
+ANTI-v2_0,ANTI,"Anticoagulation and Bleeding Risk Pathway (v2.0, 2024)",v2.0,2024,CURRENT,ANTI-v1_0,STR|VTE
+VTE-v1_0,VTE,"Venous Thromboembolism (VTE) Prevention Pathway (v1.0, 2018)",v1.0,2018,SUPERSEDED,,AKI|ANTI
+VTE-v2_0,VTE,"Venous Thromboembolism (VTE) Prevention Pathway (v2.0, 2025)",v2.0,2025,CURRENT,VTE-v1_0,AKI|ANTI
+MAT-v1_0,MAT,"Pre-eclampsia and Maternal Deterioration Pathway (v1.0, 2017)",v1.0,2017,SUPERSEDED,,SEP|AMS
+MAT-v2_0,MAT,"Pre-eclampsia and Maternal Deterioration Pathway (v2.0, 2024)",v2.0,2024,CURRENT,MAT-v1_0,SEP|AMS
+DEL-v1_0,DEL,"Delirium Prevention and Management Pathway (v1.0, 2018)",v1.0,2018,CURRENT,,SEP|AKI|AMS
